@@ -103,7 +103,7 @@ a:active {
 	color: var(--button-hover-color);
 	text-decoration: var(--button-hover-text-decoration);
 	background-color: var(--button-hover-background);
-	transition: var(--transition-duration);
+	transition-duration: var(--transition-duration);
 	transition-property: color, background-color;
 }
 
@@ -395,4 +395,5 @@ ul.row {
 
 .card-work:hover .card-outer {
 	transform: scale(0.95);
+	transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
